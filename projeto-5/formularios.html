@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formularios</title>
+  </head>
+  <body>
+    <h1>formularios</h1>
+    <hr />
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. A, debitis rerum
+      vel sapiente dolor facere sit velit tenetur? Velit porro officia dolores
+      cupiditate consequuntur veritatis voluptatem tempore quae, earum sunt!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eos cumque
+      architecto nostrum assumenda possimus corporis doloremque voluptatum,
+      tempora debitis dolores natus sit itaque eligendi tenetur, sapiente enim
+      vel inventore.
+    </p>
+    <hr />
+
+    <form>
+        <label for="campo-nome">Nome:</label>
+        <input id="campo-nome" type="text" required><br/>
+        <label for="campo-email">Email:</label>
+        <input id="campo-email" type="email" placeholder="digite seu email aqui"/> <br>
+        <label for="senha">Senha:</label>
+        <input id="senha" type="password" placeholder="Digite sua senha aqui">
+        <input type="submit" value="Enviar formulario">
+    </form>
+
+    <br>
+    <br>
+    <form>
+        <input id="dog" type="radio" name="animal" value="cachorro">
+        <label for="dog"> Cachorro</label><br>
+        <input id="cat" type="radio" name="animal" value="Gato">
+        <label for="cat"> Gato</label> <br>
+        <input type="submit" value="Enviar formulario"><br>
+        
+        <h2>O que voce tem em casa</h2>
+        <input id="item1" type="checkbox" name="item1">
+        <label for="item1">Tv</label><br>
+        <input id="item2" type="checkbox" name="item2">
+        <label for="item2">geladeira</label><br>
+        <input id="item3" type="checkbox" name="item3">
+        <label for="item3">microondas</label><br><br>
+
+        <h2>Escolha uma cor</h2>
+        <select>
+            <option selected disabled value="">Selecione uma cor</option>
+            <option value="vermelho">Vermelho</option>
+            <option value="azul">Azul</option>
+        </select>
+    </form>
+    <br><br>
+    <h2>Digite uma mensagem</h2>
+    <form>
+        <textarea rows="15" cols="55" placeholder="digite sua mensagem" name="mensagem" ></textarea>
+
+        <button>Clique aqui</button>
+    </form>
+  </body>
+</html>
